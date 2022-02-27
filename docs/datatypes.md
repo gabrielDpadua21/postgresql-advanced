@@ -19,4 +19,28 @@ Exemples of postgres data types.
 
 ---
 
+### Characteres
 
+| Name             | Store Size                 | 
+| ---------------- | -------------------------- |
+| Character        | Fixed length with limit    | 
+| Character varing | Variable length with limit |
+| Text             | Variable unlimited length  |
+
+---
+
+### Date and Time
+
+| Name            | Store Size |
+| --------------- | ---------- |
+| Date            | 4 bytes    |
+| Time (timezone) | 12 bytes   |
+| Time            | 8 bytes    |
+| Timestamp       | 8 bytes    |
+| Timestamp       | 8 bytes    | 
+
+---
+
+## Oficial Docs
+
+[Link](https://www.postgresql.org/docs/9.5/datatype.html)
